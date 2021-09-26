@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: white;
+    
+    margin: 00px;
+}
+.header h1{
+    margin: 00px;
+    padding: 00px;
+    font-style: italic;
+}
+.header h2{
+    margin: 00px;
+}
+.header .shope-name{
+    color:aqua;
+}
