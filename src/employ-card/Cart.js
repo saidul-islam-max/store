@@ -1,6 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee,faUserCircle} from '@fortawesome/free-solid-svg-icons';
 
 const Cart = (props) => {
+    const element = <FontAwesomeIcon icon={faUserCircle} />
     const { cart } = props
     let total =0
     let name
@@ -11,11 +14,11 @@ const Cart = (props) => {
     return (
         <div>
           
-                <h2>Employ Count: {props.cart.length}</h2>
+                <h2>{element} Employ Count: {props.cart.length}</h2>
                 <h2>Total Salary = {total}</h2>
                 <h4>
                     {
-                        cart.map(addName => <li addName={addName}>{addName.name}</li>)
+                        cart.map(addName => <li addName={addName}>Clicked:  {addName.name}</li>)
                     }
                 </h4>
         </div>

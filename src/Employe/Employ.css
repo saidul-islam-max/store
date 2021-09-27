@@ -8,11 +8,16 @@
 }
 .emoploy-detailes{
     border-right: 10px solid lightgray;
+    padding-right: 20px;
     margin: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
 }
 .employe-salary{
-    margin: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 2px solid black;
+    height: 500px;
 }
